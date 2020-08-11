@@ -1,0 +1,47 @@
+#header{
+    z-index: 999;
+    height:100px;
+    width:100%;
+    position:fixed;
+    top:0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+    border-bottom: 2px solid #e8eaf6;
+    
+}
+
+h1 {
+    color:#1DA1F2;
+    font-weight:1000;
+}
+
+#header i{
+    color: #1DA1F2;
+}
+
+#header nav{
+    font-size:20px;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.nav_list_item{
+    margin-left:20px;
+}
+
+.section_tweet{
+    display:flex;
+    justify-content: space-between;
+}
+
+.section_small_box{
+    margin-bottom:10px;
+}
+
+/* 헤더 변경중 */

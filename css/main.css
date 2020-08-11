@@ -1,0 +1,100 @@
+
+#main{
+    position:relative;
+    top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section{
+    width:70vh;
+    background-color:white;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 3px solid #e8eaf6;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px -8px,
+    rgba(0, 0, 0, 0.024) 0px -20px 15px -25px;
+}
+
+
+.input_button{
+    border-radius:8px;
+    border: 0px;
+    color:white;
+    background-color:#1DA1F2;
+    padding: 5px 10px;
+    width: 100px;
+    height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px -8px,
+    rgba(0, 0, 0, 0.024) 0px -20px 15px -25px;
+}
+
+.icon_box{
+    height:50px;
+    width:50px;
+    overflow: hidden;
+    border-radius:30px;    
+    border: 2px solid #e8eaf6;
+}
+.icon{
+    height:50px;
+    width:50px;
+}
+
+
+/* upperside */
+
+.me_box{
+    display:flex;
+    align-items: center;
+}
+
+
+.input_textarea{
+    margin-left: 25px;
+    width:90%;
+    height:100px;
+    border-radius: 8px;
+    border: 1px solid #e8eaf6;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 20px -8px,
+    rgba(0, 0, 0, 0.024) 0px -20px 15px -25px;
+}
+
+
+
+
+/* tweetside 
+*/
+
+.tweet_box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+.tweet_box_item{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left:-70px;
+    align-items: center;
+    border-bottom: 1px solid #e8eaf6;
+
+}
+
+.tweet_user_info{
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+    text-decoration: underline  ;
+}
+
+
+
+.tweet_text{
+    padding-bottom:20px;
+    font-size: 20px;
+}
