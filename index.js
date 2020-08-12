@@ -1,16 +1,24 @@
 let tweeting = document.querySelector('.input_button');
 
+
+
 function newTweet(){
-  let list_item = document.querySelector('.tweet_box_item');
-  let list_temp = list_item.cloneNode(true);
   let newTweet = document.querySelector('.input_textarea').value;
+  if(newTweet ===''){
+    alert('트윗을 남겨주세요!');
+  }
+
+  let list_item = document.querySelector('.tweet_box_item').cloneNode(true);
   let parent = document.querySelector('.tweet_box');
-  parent.appendChild(list_temp);
-}
+  parent.appendChild(list_item);
   
-tweeting.addEventListener('click',function(){
-newTweet
-});
+  let tweets = document.querySelectorAll('.tweet_text')
+  let last_tweets = tweets[tweets.length-1]
+  last_tweets.textContent = newTweet;
+}
+ 
+
 tweeting.addEventListener('click',function(){
 newTweet()
 });
+
