@@ -85,6 +85,11 @@
 
 }
 
+.tweet_contents{
+    width:80%;
+    height:100px;
+}
+
 .tweet_user_info{
     display:flex;
     justify-content: space-between;
@@ -97,4 +102,6 @@
 .tweet_text{
     padding-bottom:20px;
     font-size: 20px;
+    text-align:center;
+
 }
